@@ -1,7 +1,8 @@
 import Navbar from "../components/Navbar";
+import Calendar from "../components/Calendar";
 
 export default function Dashboard(){
     return(
-        <h1>Hello</h1>
+        <Calendar className="calendar-container" />
     )
 }
